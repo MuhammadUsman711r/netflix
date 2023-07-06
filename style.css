@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+/* body{
+    background-color: black;
+} */
+.hero-section-back{
+    height: 700px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-section-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(Hero_Img_Netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-section-black-gradient{
+    height: 100%;
+    width: 100%;
+   background: linear-gradient(to right , rgba(0,0,0,0.7) , rgba(0,0,0,0.5) , rgba(0,0,0,0.8));
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+    width: 100vw;
+}
+.netflix-logo{
+    height: 105px;
+    width: 175px;
+    background-image: url(Logo_Netflix.png);
+    background-size: cover;
+    margin-left: 120px;
+}
+.email-sign-in-btn{
+    height: 32px;
+    width: 77px;
+    background-color: #e50914;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 630;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    margin-top: 38px;
+    margin-right: 130px;
+}
+.email-sign-in-btn:hover{
+    cursor: pointer;
+}
+.text-container{
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+}
+.main-heading{
+    font-weight: bolder;
+    font-size: 2.85rem;
+}
+.sub-heading-one{
+    font-size: 1.50rem;
+    margin-top: 20px;
+}
+.sub-heading-two{
+    font-size: 1.39rem;
+    margin-top: 20px;
+}
+.email-input{
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.5);
+    height: 56px;
+    width: 372px;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 9px;
+    color: #fff;
+}
+.get-started-btn{
+    height: 56px;
+    width: 202px;
+    background-color: #e50914;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.62rem;
+    color: #fff;
+}
+.get-started-btn:hover{
+    cursor: pointer;
+}
+.arrow{
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.email-input :hover{
+    border: 2px solid white;
+}
+.email-and-started{
+    display: flex;
+}
+.space-between-sections{
+    height: 8px;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.7);
+}
+.first-row-section{
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-row-content-column{
+height: 37vh;
+display: inline;
+width: 40vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.first-row-image-column{
+    height: 37vh;
+  width: 40vw;
+    display: inline-block;
+    background-image: url(TV_Row_Netflix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.text-row-one{
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+}
+.major-heading-row-one{
+ font-size: 3rem;
+ font-weight: 900;
+ margin-bottom: 5px;
+}
+.sub-headings-row-one{
+    line-height: 28px;
+    font-size: 1.36rem; 
+    margin-right: 25px;
+}
+.second-row-section{
+    background-color: black;
+    height: 53vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-and-four-row-content-column{
+    height: 37vh;
+display: inline;
+width: 40vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.text-row-two{
+    color: #fff;
+    position: relative;
+    bottom: 13px;
+    margin-left: 25px;
+}
+.major-headings-row-two{
+    font-size: 2.85rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.sub-headings-row-two{
+    line-height: 28px;
+    font-size: 1.36rem;
+}
+.second-row-image-column{
+    height: 37vh;
+  width: 40vw;
+    display: inline-block;
+    background-image: url(Young_Box_Img_Netflix.jpg);
+    background-size: cover;
+    margin-bottom: 48px;
+}
+.third-row-section{
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.third-row-content-column{
+    height: 37vh;
+    display: inline;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 290px;
+}
+.text-row-three{
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+}
+.major-heading-row-three{
+    font-size: 3rem;
+ font-weight: 900;
+ margin-bottom: 5px;
+}
+.sub-headings-row-three{
+    line-height: 28px;
+    font-size: 1.36rem; 
+    margin-right: 25px;
+}
+.fourth-row-section{
+    background-color: black;
+    height: 53vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-row-image-column{
+    height: 37vh;
+    width: 40vw;
+      display: inline-block;
+      background-image: url(Kids_Box_Img_Netflix.png);
+      background-size: cover;
+      margin-bottom: 48px;
+      margin-left: 90px;
+}
+.text-row-fourth{
+    color: #fff;
+    position: relative;
+    bottom: 13px;
+    left: 0;
+}
+.fourth-row-content-column{
+    height: 37vh;
+    display: inline;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;  
+}
+.major-headings-row-fourth{
+    font-size: 2.85rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+ 
+}
+.sub-headings-row-fourth{
+    line-height: 28px;
+    font-size: 1.36rem;
+}
+.frequently-asked-questions-section{
+    height: 900px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-of-questions{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    position: relative;
+    bottom: 40px;
+
+}
+.questions-background{
+    height: 520px;
+    width: 950px;
+    background-color: black;
+    position: relative;
+    /* bottom: 100px; */
+    display: flex;
+    flex-direction: column;
+}
+.first-question{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-question{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    background-color:rgba(255, 255, 255, 0.171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.third-question{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourth-question{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.fifth-question{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.sixth-question{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-question:hover,.second-question:hover,.third-question:hover,.fourth-question:hover,.fifth-question:hover,.sixth-question:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+    cursor: pointer;
+}
+.text{
+    color: #fff;
+    font-size: 1.75rem;
+    display: inline-block;
+    margin-left: 25px;
+}
+.symbol{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 100;
+    padding-right: 40px;
+}
+.sign-up-text{
+    color: #fff;
+    font-size: 1.35rem;
+    margin-top: 50px;
+
+}
+.footer{
+    height: 465px;
+    width: 100vw;
+    background-color: black;
+    color: #ffffffb3;
+}
+.question-heading{
+    height: 50px;
+    width: 100vw;
+    text-decoration: underline;
+    padding-top: 70px;
+    padding-left: 125px;
+}
+.first-list{
+    text-decoration: underline;
+    position: relative;
+    line-height: 35px;
+    padding-left:135px ;
+    margin-top: 58px;
+    font-size: 0.89rem;
+}
+.footer-questions{
+    display: flex;
+}
+.footer-questions:hover{
+    cursor: pointer;
+}
+.second-list{
+    text-decoration: underline;
+    position: relative;
+    line-height: 35px;
+   padding-left: 135px;
+    margin-top: 58px;
+    font-size: 0.89rem;
+    margin-left: 100px;
+}
+.third-list{
+    text-decoration: underline;
+    position: relative;
+    line-height: 35px;
+   padding-left: 135px;
+    margin-top: 58px;
+    font-size: 0.89rem;
+    margin-left: 100px;
+}
+/* .language-select{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    height: 32px;
+    width: 126px;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 1.10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center; 
+}
+ */
+
